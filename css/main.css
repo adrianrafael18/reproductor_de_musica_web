@@ -15,7 +15,7 @@ html, body {
 
 body {
     font-family: sans-serif;
-    background-color: orange;
+    background-color:rgb(4, 4, 173);
     display: flex: block;
     justify-content:center ;
     align-items:cente ;
@@ -35,7 +35,7 @@ body {
 
 /* Title */
 .title {
-    color: goldenrod;
+    color: red;
     font-size: 2em;
     margin-top:0%;
     text-align: center;
@@ -104,6 +104,6 @@ body {
 
 .songs a.active {
     font-size: 1.5rem;
-   color: chartreuse;
+   color: rgb(13, 184, 7);
    font-weight: bold;
 }
