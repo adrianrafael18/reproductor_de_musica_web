@@ -1,0 +1,109 @@
+/* Common */
+/* 
+    para crear un repositorio nuevo usa:
+    1:git add .
+    2:git commit -m"ACTUALISASION DEL PROGRAMA 1"
+    3:git push -u origin main
+    encaso que tengas ya creado un repositoe y lo ayas borado usa 
+    1:git remote rm origin
+ */
+* { box-sizing: border-box;}
+
+html, body {
+    height: 100%;
+}
+
+body {
+    font-family: sans-serif;
+    background-color: orange;
+    display: flex: block;
+    justify-content:center ;
+    align-items:cente ;
+}
+
+/* Player */
+.player {
+    max-width: 180px;
+    min-width: 500px;
+    background-image: linear-gradient(black ,white) ;
+    border-radius: 0.5rem;
+    padding: 2rem;
+    color: white;
+    box-shadow: 3px 3px 3px skyblue;
+    margin:  auto  auto;
+}
+
+/* Title */
+.title {
+    color: goldenrod;
+    font-size: 2em;
+    margin-top:0%;
+    text-align: center;
+    margin: 0 auto 0 auto;
+}
+
+/* Cover */
+.cover {
+    width: 120px;
+    height: auto;
+    border-radius: 1rem;
+    display: block;
+    margin: 0 auto 0 auto;
+}
+
+/* Progress */
+.progress-container {
+    height: 0.6rem;
+    background-color: aqua;
+    
+}
+.progress {
+    background-color: red;
+    width: 40%;
+    height: 100%;
+}
+
+/* Controls */
+.controls {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.controls button {
+    
+    background-color: orange;
+    font-size: 1.5em ;
+    border:none;
+}
+
+.controls i {
+    
+    font-size: 2.7rem;
+    color:cornflowerblue;
+}
+/* Songs */
+.songs {
+    font-size: 1.0rem;
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+.songs li {
+    
+    font-size: 1em;
+    margin: 1rem;
+}
+
+.songs a {
+    color: black;
+    text-decoration: none;
+    font-size: 1.5em;
+    
+}
+
+.songs a.active {
+    font-size: 1.5rem;
+   color: chartreuse;
+   font-weight: bold;
+}
